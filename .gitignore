@@ -1,0 +1,41 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+venv/
+venv*/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Python packaging files
+dist/
+build/
+*.egg-info/
+
+# Environment-specific files
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# pyenv
+.python-version
+
+# dotenv
+.env
